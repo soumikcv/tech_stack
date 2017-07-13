@@ -8,7 +8,7 @@ import LibraryList from './components/LibraryList';
 const App = () => {
 	return(
 		<Provider store ={createStore(reducers)}>
-			<View>
+			<View style = {{flex:1}}>
 				<Header header="Tech Stack" />
 				<LibraryList />
 			</View>
